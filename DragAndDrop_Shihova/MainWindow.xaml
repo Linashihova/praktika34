@@ -8,5 +8,7 @@
         Title="MainWindow" Height="350" Width="525" MinHeight="350" MinWidth="525" MouseUp="image_MouseUp">
     <Grid MouseUp="image_MouseUp">
         <Image x:Name="image" MouseUp="image_MouseUp" MouseDown="image_MouseDown" Source="/1.png" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,104,0,0"/>
+        <Button Content="Обрезка фото" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10" Padding="12,4" FontSize="14" Click="OpenCropPage_Click"/>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden" Visibility="Collapsed"/>
     </Grid>
 </Window>
