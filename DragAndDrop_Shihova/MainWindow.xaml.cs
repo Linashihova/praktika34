@@ -21,12 +21,12 @@ namespace DragAndDrop_Shihova
 
         private void image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            dispatcherTimer.Stop();
         }
 
         private void image_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            dispatcherTimer.Start();
         }
     }
 }
